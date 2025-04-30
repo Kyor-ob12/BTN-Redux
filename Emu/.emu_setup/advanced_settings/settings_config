@@ -1,0 +1,29 @@
+
+#Generic helpers
+$SYSTEM_HELPER=/mnt/SDCARD/Emu/.emu_setup/advanced_settings/.tmp/systemSettingHelpers.sh$
+$GAME_HELPER=/mnt/SDCARD/Emu/.emu_setup/advanced_settings/.tmp/gameSettingHelpers.sh$
+
+[System config]
+%"/mnt/SDCARD/Emu/.emu_setup/advanced_settings/.tmp/showCurrentSystem.sh"
+
+<Expert>
+"" "System core/emulator:" SYSTEM_CORE_LIST_PLACEHOLDER SYSTEM_CORE_LIST_PLACEHOLDER "$SYSTEM_HELPER$ get CORE 'Default'" "$SYSTEM_HELPER$ update CORE '_VALUE_'" ""
+
+<Expert>
+"" "System CPU freq:" SYSTEM_CPU_FREQS_PLACEHOLDER SYSTEM_CPU_FREQS_PLACEHOLDER "$SYSTEM_HELPER$ get EMU_CPU '1200'" "$SYSTEM_HELPER$ update EMU_CPU '_VALUE_'" ""
+
+<Expert>
+"" "System CPU cores:" SYSTEM_CPU_CORES_PLACEHOLDER SYSTEM_CPU_CORES_PLACEHOLDER "$SYSTEM_HELPER$ get EMU_CORES '1'" "$SYSTEM_HELPER$ update EMU_CORES '_VALUE_'" ""
+
+[Game config]
+
+%"/mnt/SDCARD/Emu/.emu_setup/advanced_settings/.tmp/showCurrentGame.sh"
+
+<Expert>
+"" "System core/emulator:" GAME_CORE_LIST_PLACEHOLDER GAME_CORE_LIST_PLACEHOLDER "$GAME_HELPER$ get CORE 'Default'" "$GAME_HELPER$ update CORE '_VALUE_'" ""
+
+<Expert>
+"" "System CPU freq:" GAME_CPU_FREQS_PLACEHOLDER GAME_CPU_FREQS_PLACEHOLDER "$GAME_HELPER$ get EMU_CPU '1200'" "$GAME_HELPER$ update EMU_CPU '_VALUE_'" ""
+
+<Expert>
+"" "System CPU cores:" GAME_CPU_CORES_PLACEHOLDER GAME_CPU_CORES_PLACEHOLDER "$GAME_HELPER$ get EMU_CORES '1'" "$GAME_HELPER$ update EMU_CORES '_VALUE_'" ""

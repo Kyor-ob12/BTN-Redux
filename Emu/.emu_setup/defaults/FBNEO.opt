@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="fbneo"
+export CORE_LIST="fbneo_a30 fbneo fbalpha2012"
+export MODE="smart"
+
+export EMU_CORES=2
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

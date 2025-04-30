@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="snes9x2005_plus"
+export CORE_LIST="snes9x2005_plus snes9x2005 snes9x2002 snes9x2010 snes9x mednafen_supafaust chimerasnes pocketSNES"
+export MODE="smart"
+
+export EMU_CORES=2
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

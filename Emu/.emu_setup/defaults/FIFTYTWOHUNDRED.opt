@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="a5200"
+export CORE_LIST="a5200 atari800"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=312000

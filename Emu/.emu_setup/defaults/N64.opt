@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="libn64"
+export CORE_LIST="libn64 km_ludicrousn64_2k22_xtreme_amped"
+export MODE="performance"
+
+export EMU_CORES=4
+export EMU_CPU=1200
+
+export scaling_min_freq=1008000

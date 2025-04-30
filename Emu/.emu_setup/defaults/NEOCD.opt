@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="neocd"
+export CORE_LIST="neocd"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=1008000

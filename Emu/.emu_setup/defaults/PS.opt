@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="pcsx_rearmed_a30"
+export CORE_LIST="pcsx_rearmed_a30 pcsx_rearmed swanstation pcsx_standalone"
+export MODE="smart"
+
+export EMU_CORES=2
+export EMU_CPU=1344
+
+export scaling_min_freq=1008000

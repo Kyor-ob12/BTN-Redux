@@ -1,0 +1,38 @@
+{
+    "name": "SUPER GAME BOY A30 Ed.",
+    "author": "Kyor0812",
+    "originalAuthor": "MLOPEZMAD",
+    "batteryPercentage": {
+        "visible": true,
+        "color": "#ded4dd",
+        "onleft": true
+    },
+    "title": {
+        "font": "Exo2-Italic-VariableFont_wght.ttf",
+        "size": 25,
+        "color": "#ded4dd"
+    },
+    "hint": {
+        "font": "Exo2-Italic-VariableFont_wght.ttf",
+        "size": 25,
+        "color": "#dddddd"
+    },
+    "currentpage": {
+        "color": "#ded4dd"
+    },
+    "total": {
+        "color": "#db2e51"
+    },
+    "grid": {
+        "font": "AdobeBlank.ttf",
+        "grid1x4": 0,
+        "grid3x4": 0,
+        "color": "#646464",
+        "selectedcolor": "#646464"
+    },
+    "list": {
+        "font": "wqy-microhei.ttf",
+        "size": 25,
+        "color": "#ded4dd"
+    }
+}

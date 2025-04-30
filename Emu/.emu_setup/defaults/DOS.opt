@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="dosbox_pure"
+export CORE_LIST="dosbox_pure dosbox_pure_0.9.7"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

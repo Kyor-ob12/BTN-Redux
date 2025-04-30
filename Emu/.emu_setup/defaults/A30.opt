@@ -1,0 +1,4 @@
+#!/bin/sh
+export GPU_MHZ=384
+export CPU_CORES="1 2 3 4"
+export CPU_FREQS="648 816 1200 1344 1512"

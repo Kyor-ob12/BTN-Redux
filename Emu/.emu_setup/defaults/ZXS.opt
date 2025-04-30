@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="fuse"
+export CORE_LIST="fuse"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=408000

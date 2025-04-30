@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="bluemsx"
+export CORE_LIST="bluemsx fmsx"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=408000

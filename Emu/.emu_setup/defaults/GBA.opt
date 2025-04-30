@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="gpsp_plus"
+export CORE_LIST="gpsp_plus mgba gpsp mednafen_gba meteor vbam vba_next"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=1008000

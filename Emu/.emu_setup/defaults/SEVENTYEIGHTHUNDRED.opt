@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="prosystem"
+export CORE_LIST="prosystem"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=480000

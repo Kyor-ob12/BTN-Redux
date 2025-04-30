@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="picodrive"
+export CORE_LIST="picodrive genesis_plus_gx picodrive_standalone"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=648000

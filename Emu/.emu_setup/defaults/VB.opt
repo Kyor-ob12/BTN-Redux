@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="mednafen_vb"
+export CORE_LIST="mednafen_vb"
+export MODE="smart"
+
+export EMU_CORES=2
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

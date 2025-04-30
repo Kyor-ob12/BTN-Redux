@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="puae2021"
+export CORE_LIST="puae uae4arm puae2021"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

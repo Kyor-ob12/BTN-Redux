@@ -2,6 +2,7 @@
 
 ![BTN](https://github.com/Rparadise-Team/BTN/assets/110534038/f6274ba3-46c5-4409-924d-656fa24765d2)
 
+### **DISCLAIMER**
 
 Hello everyone:
 
@@ -103,3 +104,70 @@ This is a BETA version. As firmware updates will be released from Miyoo, we will
 To download click on this link: https://github.com/Rparadise-Team/BTN/releases
 
 Rparadise Team.
+
+---
+
+### **BTN-Redux, a BTN customization**
+
+### **Disclaimer**
+
+This is still a BTN BETA version, just customized by me — one dev doing it all solo.  
+So if you run into any bugs, sorry in advance! Could be stuff I broke or things that were already in the original. - Kyor0812.
+
+**Huge thanks to the RParadise Team** — the ones who brought us BTN in the first place.  
+A great custom firmware focused on performance, made with love for retro gamers.
+
+**Big thanks as well to the Spruce OS team** — a lot of ideas came from their work, like the base system/game settings customization, advanced menu, logger, message display, shaders, overlays, themes organization, and more.
+
+**Massive thanks to the Miyoo Spanish community** — you were the fuel behind this little project.  
+You made it real and gave me so much without even knowing it.
+
+---
+
+**And most of all, my deepest gratitude to Alber (ATC)** — main developer of BTN, an active force in this community, and an incredibly talented designer and professional.  
+Everything I’ve done here is built on top of his original vision and hard work.  
+**This project wouldn’t exist without him, and I hope this little extension of his work makes him proud.**
+
+---
+
+### **Changelog**
+
+#### Game execution with dynamic and persistent CPU and core/emulator resource configuration  
+You can now fine-tune settings per-system or adjust them for specific games.  
+**Note:** This doesn't work for NDS, as the config is hardcoded in the Drastic binary and resets on each launch. If your A30 overheats when running NDS, reduce the core count to 2 manually in Drastic every time you start a game.
+
+#### New options in the game menu (press `X` on a game)
+- **"Launch with current system/game config"**. If there's a game-specific config, it overrides the system one.
+- **"Advanced system/game config"**. Access *Advanced settings* to edit system-wide or per-game settings.
+- **"Save current launch settings as per-game override"**.
+- **"Remove per-game launch setting override"**.
+
+#### Theme additions  
+Added the "SuperGameBoyMicro" theme by MLOPEZMAD (originally for Miyoo Mini), customized by myself for Miyoo A30.  
+Includes `README` with original credits and acknowledgments.
+
+#### openBOR support  
+Added `openBOR` as a new system.
+
+#### SoRR location change  
+Moved `SoRR` from `/Apps` to `/Emu/PORTS`. Now accessible via the system menu under `PORTS`.
+
+#### Log support  
+Log output is now available at `/CFW/btn.log`, imported from *spruceOS*.
+
+#### Experimental scripts added under `/CFW/scripts`
+- `refresh_emus_with_roms.sh`: Moves systems between `/Emu` and `/Emu/.unused` based on ROM presence. Cleans up the system menu. Not well tested—use with caution. Could become an app in the future.
+- `get_core_lists.sh`: Parses `/Emu/*/config.json` to extract cores used in the original BTN's `launch*.sh`. Developer tool.
+- `collect_icons.sh`: Collected icons from `/Emu` and `/Apps` and moved them to `/Themes/.icons`. Developer tool.
+- `helperFunctions.sh`: Partial function library from *spruceOS*. Currently uses `display` and `log_message`, with others included for future development.
+
+#### Deprecated: legacy system config  
+Obsolete system for managing dynamic/persistent CPU and core/emulator settings.  
+Scripts in `/Emu/.emu_setup`:
+- `core_switch.sh`
+- `cpu_cores_switch.sh`
+- `cpu_switch.sh`  
+To function properly, `launchlist` in each system's `config.json` must include sections that match the current system config.  
+See example in `/Emu/.emu_setup/.examples/config.json`.  
+Each script rotates through configuration options on each run, showing current values.  
+Game-specific config can be derived from system config, but cannot be independently edited—only created or deleted.

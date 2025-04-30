@@ -1,0 +1,29 @@
+{
+    "label": "PORTS",
+    "icon": "/mnt/SDCARD/Themes/.icons/Current/emus/ports.png",
+    "launch": "../.emu_setup/btn_launch.sh",
+    "rompath": "/mnt/SDCARD/Roms/PORTS",
+    "imgpath": "/mnt/SDCARD/Roms/PORTS/Imgs",
+    "useswap": 1,
+    "shortname": 0,
+    "hidebios": 0,
+    "extlist": "sh",
+    "launchlist": [
+        {
+            "name": "Launch with current system/game config",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/btn_launch.sh"
+        },
+        {
+            "name": "Advanced system/game config",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/advanced_settings/launch.sh"
+        },
+        {
+            "name": "Save current launch settings as per-game override",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/set_override.sh"
+        },
+        {
+            "name": "Remove per-game launch setting override",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/remove_override.sh"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="mednafen_ngp"
+export CORE_LIST="race mednafen_ngp"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=408000

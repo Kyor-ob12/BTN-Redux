@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="genesis_plus_gx"
+export CORE_LIST="picodrive genesis_plus_gx gearsystem picodrive_standalone"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=408000

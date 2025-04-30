@@ -1,0 +1,7 @@
+{
+	"label":        "Clean BTN logs",
+	"icon":	        "clean-logs.png",
+	"iconsel":      "clean-logs.png",
+	"launch":       "launch.sh",
+	"description":  "Empty btn.log file"
+}

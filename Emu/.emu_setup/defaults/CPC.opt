@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="crocods"
+export CORE_LIST="crocods cap32"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

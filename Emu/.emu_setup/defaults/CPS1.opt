@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="fbalpha2012_cps1"
+export CORE_LIST="fbalpha2012_cps1 fbneo fbalpha"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=816000

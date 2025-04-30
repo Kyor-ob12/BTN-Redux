@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="mednafen_pce_fast"
+export CORE_LIST="mednafen_pce_fast mednafen_supergrafx"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

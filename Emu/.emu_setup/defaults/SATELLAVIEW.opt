@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="snes9x"
+export CORE_LIST="snes9x"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=1008000

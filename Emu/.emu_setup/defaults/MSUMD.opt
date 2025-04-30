@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="genesis_plus_gx"
+export CORE_LIST="genesis_plus_gx"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

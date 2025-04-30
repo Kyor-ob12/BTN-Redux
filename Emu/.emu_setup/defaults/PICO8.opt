@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export CORE="fake08"
+export CORE_LIST="fake08 retro8"
+
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=816000

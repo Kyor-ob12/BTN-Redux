@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="Drastic_standalone"
+export CORE_LIST="Drastic_standalone"
+export MODE="smart"
+
+export EMU_CORES=4
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

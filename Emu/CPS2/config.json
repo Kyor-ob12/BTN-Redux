@@ -1,26 +1,42 @@
 {
-"label":"CPS2",
-"icon":"cps2.png",
-"launch":"launch.sh",
-"rompath":"../../Roms/CPS2",
-"imgpath":"../../Roms/CPS2/Imgs",
-"gamelist":	"../../.config/gamelist/gamelistCPS2.xml",
-"useswap":0,
-"shortname":1,
-"hidebios":1,
-"extlist":"zip",
-"launchlist": [
-{
-"name": "fbalpha2012_cps2_libretro",
-"launch": "launch.sh"
-},
-{
-"name": "fbneo_libretro",
-"launch": "launch1.sh"
-},
-{
-"name": "fbalpha_libretro",
-"launch": "launch2.sh"
+    "label": "CPS2",
+    "icon": "/mnt/SDCARD/Themes/.icons/Current/emus/cps2.png",
+    "launch": "../.emu_setup/btn_launch.sh",
+    "rompath": "../../Roms/CPS2",
+    "imgpath": "../../Roms/CPS2/Imgs",
+    "gamelist": "../../.config/gamelist/gamelistCPS2.xml",
+    "useswap": 0,
+    "shortname": 1,
+    "hidebios": 1,
+    "extlist": "zip",
+    "launchlist": [
+        {
+            "name": "Launch with current system/game config",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/btn_launch.sh"
+        },
+        {
+            "name": "Advanced system/game config",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/advanced_settings/launch.sh"
+        },
+        {
+            "name": "Save current launch settings as per-game override",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/set_override.sh"
+        },
+        {
+            "name": "Remove per-game launch setting override",
+            "launch": "/mnt/SDCARD/Emu/.emu_setup/remove_override.sh"
+        },
+        {
+            "name": "fbalpha2012_cps2_libretro",
+            "launch": "launch.sh"
+        },
+        {
+            "name": "fbneo_libretro",
+            "launch": "launch1.sh"
+        },
+        {
+            "name": "fbalpha_libretro",
+            "launch": "launch2.sh"
+        }
+    ]
 }
-]
-}                                                                                             

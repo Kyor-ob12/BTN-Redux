@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="Ports"
+export CORE_LIST="Ports"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=648000

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="fbalpha2012"
+export CORE_LIST="fbalpha2012_neogeo fbneo fb_32b"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=1200
+
+export scaling_min_freq=816000

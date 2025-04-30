@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="PPSPP_standalone"
+export CORE_LIST="PPSPP_standalone"
+export MODE="smart"
+
+export EMU_CORES=4
+export EMU_CPU=1200
+
+export scaling_min_freq=1008000

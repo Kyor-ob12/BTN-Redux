@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="stella2014"
+export CORE_LIST="stella2014"
+export MODE="smart"
+
+export EMU_CORES=1
+export EMU_CPU=816
+
+export scaling_min_freq=408000

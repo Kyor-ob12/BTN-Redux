@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export CORE="scummvm"
+export CORE_LIST="scummvm"
+export MODE="smart"
+
+export EMU_CORES=2
+export EMU_CPU=1200
+
+export scaling_min_freq=816000
