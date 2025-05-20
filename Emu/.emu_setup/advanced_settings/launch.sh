@@ -75,7 +75,7 @@ sed "s|^CFG_FILE=.*|CFG_FILE=\"${GAME_CFG}\"|" "$HELPER_PATH" >"$GAME_HELPER_PAT
 log_message "[DEBUG] System and Game Helpers created"
 
 # Prepare helpers to show additional info
-sed "s|^CURRENT_SYSTEM=.*|CURRENT_SYSTEM=\"$EMU_NAME\"|" "$SHOW_SYSTEM_HELPER" >"$ADVANCED_SETTINGS_DIR/.tmp/showCurrentSystem.sh"
+sed "s|^CURRENT_SYSTEM=.*|CURRENT_SYSTEM=\"${EMU_NAME}\"|" "$SHOW_SYSTEM_HELPER" >"$ADVANCED_SETTINGS_DIR/.tmp/showCurrentSystem.sh"
 sed "s|^CURRENT_GAME=.*|CURRENT_GAME=\"${GAME}\"|" "$SHOW_GAME_HELPER" >"$ADVANCED_SETTINGS_DIR/.tmp/showCurrentGame.sh"
 CURRENT_SYSTEM_NAME="$("$ADVANCED_SETTINGS_DIR/.tmp/showCurrentSystem.sh")"
 log_message "[DEBUG] System and Game show scripts modified"
