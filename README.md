@@ -132,6 +132,15 @@ Everything I’ve done here is built on top of his original vision and hard work
 
 ### **Changelog**
 
+#### version feature-v1.1.0-rc
+
+- Solved minor typo error showing system name in "per system" configuration menu.
+- Added "fbalpha2012" and "fbneo_miyoo_plus" cores to NEOGEO core list.
+- "fbneo_miyoo_plus" core could be used for Netplay with other Miyoos using BOM as CFW.
+
+
+#### version feature-v1.0.0-rc
+
 #### Game execution with dynamic and persistent CPU and core/emulator resource configuration  
 You can now fine-tune settings per-system or adjust them for specific games.  
 **Note:** This doesn't work for NDS, as the config is hardcoded in the Drastic binary and resets on each launch. If your A30 overheats when running NDS, reduce the core count to 2 manually in Drastic every time you start a game.

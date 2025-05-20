@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export CORE="fbalpha2012"
-export CORE_LIST="fbalpha2012_neogeo fbneo fb_32b"
+export CORE_LIST="fbalpha2012 fbalpha2012_neogeo fbneo fb_32b fbneo_miyoo_plus"
 export MODE="smart"
 
 export EMU_CORES=1

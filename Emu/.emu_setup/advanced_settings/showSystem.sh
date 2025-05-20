@@ -77,4 +77,4 @@ case "$CURRENT_SYSTEM" in
     *) CURRENT_SYSTEM_NAME="Unknown system: $CURRENT_SYSTEM";;
 esac
 
-echo "${CURRENT_SYSTEM_NAME}"
+echo -n "${CURRENT_SYSTEM_NAME}"
